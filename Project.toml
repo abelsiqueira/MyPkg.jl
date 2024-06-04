@@ -1,0 +1,7 @@
+name = "MyPkg"
+uuid = "548e5ab0-65f9-58f4-a8ee-21e40c10d155"
+authors = ["Abel Soares Siqueira <abel.s.siqueira@gmail.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.6"

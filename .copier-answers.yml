@@ -1,0 +1,11 @@
+# Changes here will be overwritten by Copier
+AskAdvancedQuestions: false
+AuthorEmail: abel.s.siqueira@gmail.com
+AuthorName: Abel Soares Siqueira
+JuliaMinVersion: '1.6'
+License: MIT
+PackageName: MyPkg
+PackageOwner: abelsiqueira
+PackageUUID: 548e5ab0-65f9-58f4-a8ee-21e40c10d155
+_commit: v0.4.0-7-g3ffcab2
+_src_path: /Users/abelsiqueira/projects/work/COPIERTemplate.jl
