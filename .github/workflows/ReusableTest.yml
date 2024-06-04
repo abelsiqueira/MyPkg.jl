@@ -23,6 +23,9 @@ on:
         required: false
         type: boolean
         default: false
+    secrets:
+      codecov_token:
+        required: true
 
 jobs:
   test:
@@ -46,4 +49,4 @@ jobs:
         if: ${{ inputs.run_codecov }}
         with:
           file: lcov.info
-          token: ${{ secrets.CODECOV_TOKEN }}
+          token: ${{ secrets.codecov_token }}
