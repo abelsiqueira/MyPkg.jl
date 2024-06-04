@@ -46,4 +46,4 @@ jobs:
         if: ${{ inputs.run_codecov }}
         with:
           file: lcov.info
-          env: ${{ secrets.CODECOV_TOKEN }}
+          token: ${{ secrets.CODECOV_TOKEN }}
